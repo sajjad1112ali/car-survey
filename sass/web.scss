@@ -1,0 +1,184 @@
+/* Sass Document */
+@import "bootstrap/bootstrap";
+@import "../fonts/fonts.css";
+
+
+$colorGray:#a1a1a1;
+$colorBlue: #3696e7;
+
+.colorBlue{color: $colorBlue;}
+.colorBlack{color: #000;}
+.colorRed{color: #ff2b21;}
+.text-direction{
+  direction: rtl;
+}
+
+.font-size22px {
+  font-size: 22px;
+}
+
+header{
+  background-color: $black;
+}
+
+.height-100vh {
+  height: 100vh;
+}
+
+.z-index{z-index: 999;}
+
+.bg-sunRWDBanner{
+  background: url("../images/bg-rwd.png") no-repeat;
+  @extend .bg-sizPos;
+  transform: translate(0px, -56px);
+}
+
+
+
+.banner-txt{
+  width: 15em;
+  top: 12.7%;
+  right: 62%;
+}
+
+.carR0ws {
+  margin: 0;
+  padding: 0;
+  li{
+    list-style: none;
+    display: inline-block;
+    width: 219px;
+    text-align: center;
+    margin-bottom: 3em;
+      div{
+        background: url("../images/car/circle.png") no-repeat;
+        background: url(../images/car/circle.png) no-repeat;
+        width: 10em;
+        height: 10em;
+        margin: auto;
+        cursor: pointer;
+        @extend .bg-sizPos;
+        img{
+          margin: 4em 0px;
+        }
+      }
+      p{
+        direction: rtl;
+      }
+    }
+}
+
+
+.fotcarR0ws {
+  margin: 0;
+  padding: 0;
+  li{
+    list-style: none;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    div{
+      background: url("../images/car/circle.png") no-repeat;
+      background: url(../images/car/circle.png) no-repeat;
+      width: 8em;
+      height: 8em;
+      margin: auto;
+      @extend .bg-sizPos;
+      img{
+        margin: 3em 0px;
+      }
+    }
+    span{
+      background-color: #ff2b21;
+      border-radius: 100%;
+      width: 35px;
+      height: 35px;
+      display: block;
+      padding: 5px;
+      color: #fff;
+      margin: -20px auto;
+      cursor: pointer;
+    }
+    p{
+      direction: rtl;
+    }
+  }
+}
+
+
+
+.bg-footer{
+  background: url("../images/footer.png") no-repeat;
+  @extend .bg-sizPos;
+}
+
+
+.bg-sizPos {
+  background-size: cover;
+}
+
+
+
+.margin-topNeg10em{margin-top: -10em;}
+.margin-topNeg6em{margin-top: -6em;}
+.marginTop6em{margin-top: 6em;}
+.marginbot12em {
+  margin-bottom: 12em;
+}
+.bottom-0px{bottom: 0;}
+
+
+
+.custom-control-label::before {
+  position: absolute;
+  top: 0.25rem;
+  right: -0.5rem;
+  display: block;
+  width: 1.4rem;
+  height: 1.4rem;
+  pointer-events: none;
+  content: "";
+  background-color: transparent;
+  border: #ffffff solid 1px;
+}
+
+
+.custom-control-label::after {
+  position: absolute;
+  top: 0.25rem;
+  right: -0.5rem;
+  display: block;
+  width: 1.4rem;
+  height: 1.4rem;
+  content: "";
+  background: no-repeat 50% / 50% 50%;
+}
+.dblock{display: none;}
+@media only screen and (max-width: 769px) {
+  .displayNone{display: none;}
+  .dblock{display: block;}
+  .margin-topNeg10em {
+    margin-top: -6em;
+  }
+
+  .margin-topNeg6em {
+    margin-top: 5em;
+  }
+
+}
+
+.rwd-carSelect{
+  zoom: 100%;
+}
+
+@media only screen and (max-width: 470px) {
+  .rwd-carSelect{
+    zoom: 80%;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .rwd-carSelect{
+    zoom: 60%;
+  }
+}

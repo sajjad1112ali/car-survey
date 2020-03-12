@@ -1,0 +1,9 @@
+@import "Assistant-Bold/styles.css";
+@import "Assistant-Regular/styles.css";
+@import "Assistant-SemiBold/styles.css";
+
+
+.font-family-Assistant-Bold{font-family: 'Assistant-Bold';}
+.font-family-Assistant-Regular{font-family: 'Assistant-Regular';}
+.font-family-Assistant-SemiBold{font-family: 'Assistant-SemiBold';}
+

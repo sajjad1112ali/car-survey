@@ -1,0 +1,236 @@
+div.car-selection{
+  background: transparent;
+  border: none;
+}
+div.car-selection .carR0ws li img{
+  margin-top: 3em;
+}
+.car-selection .carR0ws li div{
+  width: 18em;
+  height: 18em;
+  
+}
+.modal-p{
+  margin-top: -75px;
+}
+
+/*.car-name {
+  font-weight: bold;
+  font-size: 18px;
+}*/
+.selected-image{
+  background: #18a15d;
+  width: 93%;
+  height: 95%;
+  border-radius: 50%;
+  opacity: .8 !important;
+  right: 5px;
+}
+.choices{
+  position: relative;
+}
+.image-ticked{
+  font-size: 65px;
+    position: absolute;
+    margin: auto;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    color: white;
+}
+
+.selection-options{
+  background: #a1a1a1;
+  border-radius: 25px;
+  padding: 3px;
+  color: white;
+}
+.selection-options > span{
+  display: inline-block;
+  font-size: 23px;
+  border-radius: 50%;
+  padding: 8px 12px;
+}
+span.cancel{
+  padding: 8px 17px;
+}
+span.selection-text{
+  font-size: 1.2rem;
+  padding-top: 10px;
+  cursor: auto;
+}
+.custom-modal .modal-dialog {
+  margin: 20vh auto 0px auto;
+  max-width: 50%;
+}
+.custom-modal .modal-content {
+  background: url(../images/popupBox.png) no-repeat;
+  background-size: cover;
+  color: white;
+  border: none;
+  border-radius: 1em;
+}
+button.form-close{
+  background: white;
+  padding: 5px 12px;
+  right: -17px;
+  position: absolute;
+  border-radius: 50%;
+  top: -16px;
+  z-index: 9;
+  opacity: 1;
+  font-size: 30px;
+}
+#formModal .form-group {
+  margin-bottom: .5rem;
+}
+#formModal .form-control{
+  background-color: #d7d7d7;
+  border-radius: 1px;
+}
+.form-check{
+  padding-left: 0rem;
+}
+.form-check-input{
+  position: absolute;
+  right: 10px;
+}
+.form-btn, 
+button.form-btn:hover,
+button.form-btn.active.focus,
+button.form-btn.active:focus,
+button.form-btn.active:hover,
+button.form-btn:active.focus,
+button.form-btn:active:focus,
+button.form-btn:active:hover 
+{
+  display: block;
+  width: 100%;
+  color: white;
+  background: #ff2b21;
+  border-color: #ff2b21;
+}
+#spinner {
+  margin-right: 20px;
+  position: absolute;
+  margin-top: 5px;
+}
+.orange{
+  color: #ff2b21;
+}
+.pr2{
+  padding-right: 2rem !important;
+}
+
+footer{
+  height: 200px;
+}
+.form-btn, 
+button.form-btn:hover,
+button.form-btn.active.focus,
+button.form-btn.active:focus,
+button.form-btn.active:hover,
+button.form-btn:active.focus,
+button.form-btn:active:focus,
+button.form-btn:active:hover 
+{
+  display: block;
+  width: 100%;
+  color: white;
+}
+
+.mt5{ margin-top: 5px;}
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #fff;
+  background-color: transparent;
+}
+.line-height1{line-height: 1;}
+
+
+@media only screen and (max-width: 510px) {
+  .bg-footer {
+    height: 280px !important;
+  }
+  .fotcarR0ws li{
+    width: 108px;
+  }
+  .fotcarR0ws li div{
+    width: 7em;
+    height: 7em;
+  }
+  .fotcarR0ws li span{
+    margin-top: -30px;
+  }
+  .fotcarR0ws li div img{
+    margin: 2em 0px;
+  }
+  #formModal .width-custom,
+  #thankYouModal  .width-custom{
+    max-width: 97% !important;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 380px) {
+  
+  .bg-footer {
+    height: 260px !important;
+  }
+  .fotcarR0ws li{
+    width: 88px;
+  }
+  .fotcarR0ws li div{
+    width: 5.5em;
+    height: 5.5em;
+  }
+  .fotcarR0ws li span{
+    margin-top: -30px;
+  }
+  .fotcarR0ws li div img{
+    margin: 1em 0px;
+  }
+  .car-selection .carR0ws li div{
+    width: 16em;
+    height: 16em;
+  }
+  .line-height1{
+    font-size: 12px;
+  }
+  
+  #formModal .width-custom,
+  #thankYouModal  .width-custom{
+    max-width: 87% !important;
+  }
+
+  #formModal .width-custom .modal-body,
+  #thankYouModal  .width-custom .modal-body{
+    padding: 0rem;
+  }
+  .fotcarR0ws {
+    margin-top: 5rem !important;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .bg-footer {
+    height: 250px;
+  }
+  .f-container{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 992px)
+{
+  
+  #formModal .modal-dialog {
+    max-width: 70%;
+  }
+}
